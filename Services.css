@@ -1,0 +1,168 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0078D4;
+  color: #fff;
+}
+
+.header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  color: #FFA500;
+}
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  /* Header */
+
+  
+  .logo h1 {
+    font-size: 24px;
+  }
+  
+  .contact p {
+    margin-right: auto;
+  }
+  
+  /* Banner */
+  .banner {
+    background-color: #5cbcf6;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .banner-text p {
+    color: white;
+    font-size: 18px;
+  }
+  
+  .banner .btn {
+    color: white;
+    background-color: #2d8cc8;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: inline-block;
+  }
+  
+  /* Main Content */
+  .main-content {
+    background-image: url('/IMG/WW.jpg'); /* Replace with actual background image */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    color: white;
+  }
+  
+  .text-overlay h2 {
+    font-size: 36px;
+  }
+  
+  .text-overlay .btn {
+    color: #082550;
+    background-color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  .schedule-box {
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    background-color: #5cbcf6;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+  }
+  
+  .schedule-box h3 {
+    font-size: 20px;
+  }
+  
+  .schedule-box .btn {
+    background-color: #082550;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  /* Reviews Section */
+  .reviews {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .reviews h2 {
+    font-size: 28px;
+    color: #082550;
+  }
+  
+  /* Button Styles */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  
+  .blue-btn {
+    background-color: #2d8cc8;
+    color: white;
+  }

@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ccc;
+  overflow-x: hidden;
+}
+
+/* Top Bar */
+.top-bar {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    position: relative;
+}
+
+.top-bar span {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.top-links {
+    margin-bottom: 20px;
+}
+
+.top-bar .top-links a {
+    color: white;
+    text-decoration: underline;
+    margin-left: 15px;
+}
+
+.top-bar .top-links a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+    margin-top: -20px;
+    display: flex;
+    justify-content: start;
+    height: 100px;
+    align-items: center;
+    padding: 15px 20px;
+    background: white;
+    border-bottom: 2px solid #ddd;
+}
+
+.logo {
+    font-size: 40px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    gap: 10px;
+    margin-left: 50px;
+}
+
+
+
+/* Search Box */
+
+/* .search-container {
+    display: flex;
+    background-color: #eaeaea;
+    border-radius: 40px;
+    overflow: hidden;
+    width: 400px;
+    max-width: 90%;
+    margin-left: 90px
+}
+
+.search-container input {
+    flex: 1;
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+}
+
+.search-container button {
+    background-color: #7a00ff;
+    color: white;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container button i {
+    font-size: 18px;
+}
+
+.search-container button:hover {
+    background-color: #5e00cc;
+} */
+
+/* User Actions */
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    margin-left: 1200px;
+}
+
+.user-actions a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.user-actions a i {
+    font-size: 18px;
+}
+
+.cart-count {
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    left: -5px;
+}
+
+
+/* Category Navigation */
+.category-nav {
+    display: flex;
+    height: 50px;
+    position: relative;
+    background: #ccc;
+    padding: 10px 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.category-nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    display: flex;
+    margin-left: 40px;
+    font-weight: lighter;
+
+}
+
+.category-nav a i {
+    font-size: 18px;
+}
+
+.category-nav a:hover {
+    color: #661AFF;
+}
+
+/* Side bar  */
+
+.sidebar {
+  width: 250px;
+  background-color: #ccc;
+  padding: 20px;
+  height: 100vh;
+  border-right: 1px solid #ccc;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #444;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.section hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin-bottom: 15px;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  padding: 8px 0;
+  font-size: 15px;
+  color: #222;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.nav-links li:hover {
+  color: #000;
+}
+
+.nav-links .active {
+  font-weight: bold;
+  color: #000;
+}
+
+.main-content{
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin-left: 250px;
+  margin-top: 200px;
+}
+.main-content h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-item {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.product-item h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
